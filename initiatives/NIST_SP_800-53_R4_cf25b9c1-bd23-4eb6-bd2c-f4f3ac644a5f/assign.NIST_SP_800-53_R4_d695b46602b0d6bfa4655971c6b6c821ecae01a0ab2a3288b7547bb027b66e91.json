@@ -1,0 +1,90 @@
+{
+ "sku": {
+  "name": "A1",
+  "tier": "Standard"
+ },
+ "identity": {
+  "principalId": "81547baa-2c9d-4742-8f23-e8c421ff4958",
+  "tenantId": "108a83c5-e690-4c88-aa45-bc84d8024b34",
+  "type": "SystemAssigned"
+ },
+ "properties": {
+  "displayName": "NIST SP 800-53 R4",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/cf25b9c1-bd23-4eb6-bd2c-f4f3ac644a5f",
+  "scope": "/subscriptions/ce155c5b-72b2-4b8d-996d-fc47b268c5f4",
+  "notScopes": [],
+  "parameters": {
+   "logAnalyticsWorkspaceIdforVMReporting": {
+    "value": "87fd6a17-6be1-457f-99a1-11b7df448772"
+   },
+   "listOfResourceTypesWithDiagnosticLogsEnabled": {
+    "value": [
+     "Microsoft.AnalysisServices/servers",
+     "Microsoft.ApiManagement/service",
+     "Microsoft.Network/applicationGateways",
+     "Microsoft.Automation/automationAccounts",
+     "Microsoft.ContainerInstance/containerGroups",
+     "Microsoft.ContainerRegistry/registries",
+     "Microsoft.ContainerService/managedClusters",
+     "Microsoft.Batch/batchAccounts",
+     "Microsoft.Cdn/profiles/endpoints",
+     "Microsoft.CognitiveServices/accounts",
+     "Microsoft.DocumentDB/databaseAccounts",
+     "Microsoft.DataFactory/factories",
+     "Microsoft.DataLakeAnalytics/accounts",
+     "Microsoft.DataLakeStore/accounts",
+     "Microsoft.EventGrid/eventSubscriptions",
+     "Microsoft.EventGrid/topics",
+     "Microsoft.EventHub/namespaces",
+     "Microsoft.Network/expressRouteCircuits",
+     "Microsoft.Network/azureFirewalls",
+     "Microsoft.HDInsight/clusters",
+     "Microsoft.Devices/IotHubs",
+     "Microsoft.KeyVault/vaults",
+     "Microsoft.Network/loadBalancers",
+     "Microsoft.Logic/integrationAccounts",
+     "Microsoft.Logic/workflows",
+     "Microsoft.DBforMySQL/servers",
+     "Microsoft.Network/networkInterfaces",
+     "Microsoft.Network/networkSecurityGroups",
+     "Microsoft.DBforPostgreSQL/servers",
+     "Microsoft.PowerBIDedicated/capacities",
+     "Microsoft.Network/publicIPAddresses",
+     "Microsoft.RecoveryServices/vaults",
+     "Microsoft.Cache/redis",
+     "Microsoft.Relay/namespaces",
+     "Microsoft.Search/searchServices",
+     "Microsoft.ServiceBus/namespaces",
+     "Microsoft.SignalRService/SignalR",
+     "Microsoft.Sql/servers/databases",
+     "Microsoft.Sql/servers/elasticPools",
+     "Microsoft.StreamAnalytics/streamingjobs",
+     "Microsoft.TimeSeriesInsights/environments",
+     "Microsoft.Network/trafficManagerProfiles",
+     "Microsoft.Compute/virtualMachines",
+     "Microsoft.Compute/virtualMachineScaleSets",
+     "Microsoft.Network/virtualNetworks",
+     "Microsoft.Network/virtualNetworkGateways"
+    ]
+   },
+   "listOfMembersToExcludeFromWindowsVMAdministratorsGroup": {
+    "value": "Administrator"
+   },
+   "listOfMembersToIncludeInWindowsVMAdministratorsGroup": {
+    "value": "rick.skalitzky@slidesideways.net"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "createdBy": "b2e2bd1a-5a09-4f2b-a588-94ef5ee286cb",
+   "createdOn": "2021-05-11T23:09:50.563411Z",
+   "updatedBy": "b2e2bd1a-5a09-4f2b-a588-94ef5ee286cb",
+   "updatedOn": "2021-05-11T23:31:23.4506554Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/ce155c5b-72b2-4b8d-996d-fc47b268c5f4/providers/Microsoft.Authorization/policyAssignments/d695b46602b0d6bfa4655971c6b6c821ecae01a0ab2a3288b7547bb027b66e91",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "d695b46602b0d6bfa4655971c6b6c821ecae01a0ab2a3288b7547bb027b66e91",
+ "location": "westus"
+}
